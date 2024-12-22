@@ -1,5 +1,6 @@
 @import url(https://db.onlinewebfonts.com/c/cd1810fafebbd3df4964112052edf871?family=FinkHeavy);
 /*1rem = 18px 2rem= 36px 0.5rem = 9px*/
+/*****************HOMEPAGE***************/
 h1 {
 	font-family: "FinkHeavy";
 	color: rgb(223, 213, 8);
@@ -69,7 +70,7 @@ header {
 	background-color: #bee893;
 	grid-template-rows: auto;
 }
-
+/*****************INTRO******************/
 .intro-text {
 	background-color: darkgreen;
 	color: white;
@@ -89,6 +90,7 @@ header {
 	margin-top: 50px;
 	border-radius: 10px;
 }
+/*************************PROJECT PREVIEUW DEEL**********************/
 .projects-section {
 	display: flex;
 	grid-column: span 2;
@@ -144,6 +146,7 @@ header {
 	height: 80%;
 	border-radius: 10px;
 }
+/****************************GALLERIJ PREVIEUW DEEL****************/
 .gallery-preview-section {
 	display: flex;
 	flex-direction: column;
@@ -242,6 +245,7 @@ header {
 	background-color: #45a049;
 	transform: scale(1.1);
 }
+/****************************ABOUT US DEEL*****************/
 .about-us-section {
 	background-color: darkgreen;
 	padding: 40px 20px;
@@ -274,6 +278,9 @@ header {
 	background-color: #45a049;
 	transform: scale(1.05);
 }
+/*************************EINDE HOMEPAGE*********/
+
+/*******************PROJECT PAGINA***************/
 .intro-projects {
 	text-align: center;
 	margin-bottom: 40px;
@@ -401,6 +408,7 @@ header {
 	margin-bottom: 30px;
 	font-style: italic;
 }
+/*************GALERIJ PAGINA************/
 .gallery-intro {
 	background-color: #bee893;
 	padding: 40px 20px;
@@ -472,7 +480,7 @@ header {
 	visibility: visible;
 	opacity: 1;
 }
-
+/****************ABOUT US PAGINA*****************/
 .about-section {
 	max-width: 1200px;
 	margin: 40px auto;
